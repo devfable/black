@@ -1,0 +1,139 @@
+<!doctype html>
+<html data-n-head-ssr lang="en" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+  <head>
+    <title>devfable-nuxt</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1"><meta data-n-head="ssr" data-hid="description" name="description" content="## Build Setup"><meta data-n-head="ssr" data-hid="mobile-web-app-capable" name="mobile-web-app-capable" content="yes"><meta data-n-head="ssr" data-hid="apple-mobile-web-app-title" name="apple-mobile-web-app-title" content="devfable-nuxt"><meta data-n-head="ssr" data-hid="theme-color" name="theme-color" content="black"><meta data-n-head="ssr" data-hid="og:type" name="og:type" property="og:type" content="website"><meta data-n-head="ssr" data-hid="og:title" name="og:title" property="og:title" content="devfable-nuxt"><meta data-n-head="ssr" data-hid="og:site_name" name="og:site_name" property="og:site_name" content="devfable-nuxt"><meta data-n-head="ssr" data-hid="og:description" name="og:description" property="og:description" content="## Build Setup"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico"><link data-n-head="ssr" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"><link data-n-head="ssr" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css"><link data-n-head="ssr" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"><link data-n-head="ssr" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css"><link data-n-head="ssr" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/solid.min.css"><link data-n-head="ssr" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css"><link data-n-head="ssr" rel="manifest" href="/_nuxt/manifest.d76afc3b.json"><link data-n-head="ssr" rel="shortcut icon" href="/_nuxt/icons/icon_64.5f6a36.png"><link data-n-head="ssr" rel="apple-touch-icon" href="/_nuxt/icons/icon_512.5f6a36.png" sizes="512x512"><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script><link rel="preload" href="/_nuxt/runtime.b91c889.js" as="script"><link rel="preload" href="/_nuxt/node_modules/commons.6db1fc5.js" as="script"><link rel="preload" href="/_nuxt/app.d231f10.js" as="script"><link rel="preload" href="/_nuxt/pages/index.a06c748.js" as="script"><style data-vue-ssr-id="a00d167c:0 a00d167c:1 517a8dd7:0 fa7ff0ca:0 56b15182:0 7bfd72ea:0 2e4595c2:0 275ad4c5:0 02ca12f3:0">@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap);@font-face{font-family:Lean;src:url(/_nuxt/fonts/Lean.e5ee9fc.woff2) format("woff2"),url(/_nuxt/fonts/Lean.14a7f8d.woff) format("woff")}html{scroll-behavior:smooth}body{background-color:#000;color:#fff;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;overflow-x:hidden!important}.brand{font-family:Lean,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}.container-narrow{max-width:600px}.center-everything{display:flex;flex-direction:column;justify-content:center}.btn{border-radius:100px;padding:.9em 1.2em;transition:all .3s ease-out}.btn-theme{background-color:transparent;border-color:#fff;color:#fff}.btn-theme:active,.btn-theme:focus,.btn-theme:hover{background-color:#fff;color:#000}.btn-highlight{background-color:transparent;border-color:#007bff;color:#007bff}.btn-highlight:active,.btn-highlight:focus,.btn-highlight:hover{background-color:#007bff;color:#fff}.btn-rounded{padding:.5em 1em;border-radius:8px}code[class*=language-],pre[class*=language-]{color:#000;background:0 0;text-shadow:0 1px #fff;font-family:Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-] ::-moz-selection,code[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection{text-shadow:none;background:#b3d4fc}code[class*=language-] ::selection,code[class*=language-]::selection,pre[class*=language-] ::selection,pre[class*=language-]::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}html{font-family:"Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:16px;word-spacing:1px;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;box-sizing:border-box}*,:after,:before{box-sizing:border-box;margin:0}.button--green{display:inline-block;border-radius:4px;border:1px solid #3b8070;color:#3b8070;text-decoration:none;padding:10px 30px}.button--green:hover{color:#fff;background-color:#3b8070}.button--grey{display:inline-block;border-radius:4px;border:1px solid #35495e;color:#35495e;text-decoration:none;padding:10px 30px;margin-left:15px}.button--grey:hover{color:#fff;background-color:#35495e}#fp-nav ul li a span{color:#fff;background:#fff}.swiper-slide[data-v-e7e974a4]{padding:10px}.swiper-slide .portfolio-window[data-v-e7e974a4]{margin:0 auto}.view[data-v-e7e974a4]{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;position:relative;margin-bottom:200px}.view h2[data-v-e7e974a4]{font-size:48px;font-weight:600}@media screen and (max-width:768px){.view h2[data-v-e7e974a4]{font-size:24px}}@media screen and (max-width:768px){.view h2 p[data-v-e7e974a4]{font-size:14px}}.view .beftitle[data-v-e7e974a4]{font-size:20px;font-weight:600}@media screen and (max-width:768px){.view .beftitle[data-v-e7e974a4]{font-size:14px}}section .bg[data-v-e7e974a4]{position:absolute;top:0;left:0;width:100%;height:100vh;z-index:-1;overflow:hidden;opacity:1}section .bg[data-v-e7e974a4]:after{position:absolute;display:block;content:"";width:100%;height:100%;box-shadow:inset 0 0 100px 10px #000}section .bg .bg-image[data-v-e7e974a4]{position:absolute;left:-5%;top:-5vh;width:110%;height:110vh;-o-object-fit:cover;object-fit:cover;z-index:-1}section#intro .title[data-v-e7e974a4]{display:block;margin:0;color:#fff;font-weight:300;font-size:100px;line-height:100px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}section#intro .subtitle[data-v-e7e974a4]{font-size:20px}section#intro .bg-image[data-v-e7e974a4]{-webkit-filter:opacity(.7);filter:opacity(.7)}.bg-decoration-devfable[data-v-e7e974a4]{font-size:72px;left:10vw;top:20vh}.bg-decoration-devfable[data-v-e7e974a4],.bg-decoration-pronunciation[data-v-e7e974a4]{color:hsla(0,0%,100%,.46667);font-family:Lean,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;position:absolute}.bg-decoration-pronunciation[data-v-e7e974a4]{font-size:48px;left:80vw;top:60vh}section#about .bg-image[data-v-e7e974a4]{-webkit-filter:grayscale(100%) opacity(.2);filter:grayscale(100%) opacity(.2);z-index:-100}section#contact ._email[data-v-e7e974a4],section#contact ._whatsapp[data-v-e7e974a4]{font-weight:600}section#contact ._email a[data-v-e7e974a4],section#contact ._whatsapp a[data-v-e7e974a4]{text-decoration:none}section#contact ._email[data-v-e7e974a4]{font-size:72px}@media screen and (max-width:768px){section#contact ._email[data-v-e7e974a4]{font-size:32px}}section#contact ._whatsapp[data-v-e7e974a4]{font-size:48px}@media screen and (max-width:768px){section#contact ._whatsapp[data-v-e7e974a4]{font-size:32px}}.portfolio-window[data-v-0630f034]{overflow:hidden;border-radius:10px;height:600px;max-width:1000px;background:#fff;position:relative}.portfolio-window-bg[data-v-0630f034]{background-color:#3b8070;width:100%;height:600px}.portfolio-window-bg img[data-v-0630f034]{position:relative;top:-380px;width:100%;height:800px;-o-object-fit:cover;object-fit:cover}.portfolio-window .hint[data-v-0630f034]{position:absolute;top:40px;left:0;background-color:rgba(0,0,0,.5);padding:20px;border-radius:0 8px 8px 0;transition:all .4s ease-in-out}.portfolio-window .hint h3[data-v-0630f034]{font-size:20px;font-weight:700}.portfolio-window-content[data-v-0630f034]{opacity:0;position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.8);padding:40px;transition:all .4s ease-in-out}.portfolio-window-content h3[data-v-0630f034]{font-size:36px;font-weight:700}.portfolio-window-content .break[data-v-0630f034]{width:2.5rem;height:.25rem;border:transparent;background-color:#fff;margin:20px 0}.portfolio-window-content .fields[data-v-0630f034]{padding-left:80px}.portfolio-window-content .field .label[data-v-0630f034]{font-weight:700;text-transform:uppercase;color:#888;margin-bottom:5px}.portfolio-window-content .field .value[data-v-0630f034]{margin-bottom:20px}.portfolio-window:hover .hint[data-v-0630f034]{left:-100%}.portfolio-window:hover .portfolio-window-content[data-v-0630f034]{opacity:1}.footer ._top[data-v-ecc61936]{border-top:1px solid #343a40;padding:40px 0;font-size:12px}.footer ._top ._brand[data-v-ecc61936]{font-size:45px;font-weight:700;letter-spacing:-.02em}.footer ._top ._brand-subtitle[data-v-ecc61936]{font-size:11px;font-weight:800}.footer ._top h3[data-v-ecc61936]{font-size:20px;font-weight:600}.footer ._top .nav-link[data-v-ecc61936]{padding:2px 0;color:#f8f9fa}.footer ._top .nav-link[data-v-ecc61936]:hover{color:#007bff}.footer ._bottom[data-v-ecc61936]{padding:40px 0;font-size:12px}</style><link rel="preload" href="/_nuxt/static/1597602407/payload.js" as="script">
+  </head>
+  <body>
+    <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div><div data-v-e7e974a4><div id="fullpage" data-v-e7e974a4><section id="intro" class="section" data-v-e7e974a4><div class="view" data-v-e7e974a4><div class="bg parallax" data-v-e7e974a4><picture data-depth="0.2" data-v-e7e974a4><source srcset="/_nuxt/img/banner.fd292fb.webp" type="image/webp" data-v-e7e974a4> <img src="/_nuxt/img/banner.6f03d90.jpg" alt data-aos="zoom-out" data-aos-delay="700" class="bg-image" data-v-e7e974a4></picture></div> <h1 data-aos="zoom-out" class="title brand" data-v-e7e974a4>
+          DevFable
+        </h1> <div data-aos="zoom-out" data-aos-delay="500" class="subtitle mb-4" data-v-e7e974a4>
+          We help you develop
+          <span class="typed" data-v-e7e974a4></span></div> <div data-aos="zoom-out" data-aos-delay="600" class="p-2" data-v-e7e974a4><a href="#about" class="btn btn-theme" data-v-e7e974a4><i class="fas fa-arrow-down mr-2" data-v-e7e974a4></i>
+            Learn more
+          </a> <a href="/contact" class="btn btn-highlight ml-2" data-v-e7e974a4><i class="fas fa-paper-plane mr-2" data-v-e7e974a4></i>
+            Work with us
+          </a></div></div></section> <section id="about" class="section" data-v-e7e974a4><div class="view" data-v-e7e974a4><div class="bg parallax" data-v-e7e974a4><picture data-depth="0.2" data-v-e7e974a4><img data-aos="zoom-out" data-aos-delay="700" src="https://www.tripsavvy.com/thmb/LUn650t-Z5WgHgC7JSHsoLNpOXI=/950x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-541628454-5a338f6e482c52003648501c.jpg" alt class="bg-image" data-v-e7e974a4></picture></div> <div class="container container-narrow" data-v-e7e974a4><h2 data-aos="fade-up" class="mb-4" data-v-e7e974a4>
+            About Us
+            <small style="display:block;font-size:24px" data-v-e7e974a4>/dɛvˈfeɪb(ə)l/</small></h2> <p data-aos="fade-up" data-aos-delay="300" class="text-justify" data-v-e7e974a4>
+            We are an Indonesian software development company (Software House) based in Jakarta and Singapore
+            with expertise in providing digital solutions for startups, small businesses and organizations.
+            Our services including <b data-v-e7e974a4>Web Development</b>, <b data-v-e7e974a4>Mobile App Development (Android & iOS)</b>, and <b data-v-e7e974a4>more</b></p> <div data-aos="fade-up" data-aos-delay="400" data-v-e7e974a4><a href="/services" class="btn btn-link" data-v-e7e974a4>
+              Learn more about our services
+            </a></div> <div data-aos="fade-up" data-aos-delay="500" class="mt-4" data-v-e7e974a4><a href="#portfolio" class="btn btn-theme" data-v-e7e974a4><i class="fas fa-arrow-down mr-2" data-v-e7e974a4></i>
+              See our works
+            </a></div></div></div></section> <section id="portfolio" class="section" data-v-e7e974a4><div class="view" data-v-e7e974a4><div class="container center-everything text-left" data-v-e7e974a4><div class="beftitle" data-v-e7e974a4>
+            Need some inspirations?
+          </div> <h2 data-v-e7e974a4>Successful Stories of our Clients</h2></div> <div class="swiper-container" style="width:100%" data-v-e7e974a4><div class="swiper-wrapper" data-v-e7e974a4><div class="swiper-slide" data-v-e7e974a4><div class="portfolio-window text-left mt-4" data-v-0630f034 data-v-e7e974a4><div class="portfolio-window-bg" data-v-0630f034><img src="/_nuxt/img/trst-01.7924eb5.jpg" alt class="rellax" data-v-0630f034></div> <div class="hint" data-v-0630f034><div data-v-0630f034><h3 data-v-0630f034>TRST Architect</h3>
+      Hover to read
+    </div></div> <div class="portfolio-window-content" data-v-0630f034><div class="row" data-v-0630f034><div class="col" data-v-0630f034><h3 data-v-0630f034>TRST Architect</h3> <hr class="break mb-5" data-v-0630f034> <p class="text-justify mb-5" data-v-0630f034>
+          TRST Architect is a full-service architecture design studio located in Jakarta, Indonesia.
+          The studio’s work includes high-end residential and commercial projects.
+          In collaboration with DevFable, we created their company profille website,
+          which serves as home for their online presence, showcasing their past portfolios with
+          High Resolution medias, and also providing essential information with minimalist and modern design
+          theme, faithfully following their architecture design accent.
+        </p> <div data-v-0630f034><a href="https://trstarchitect.com" class="btn btn-theme btn-rounded" data-v-0630f034>
+            Visit Link
+          </a> <a href="https://trstarchitect.com" class="btn btn-theme btn-rounded ml-2" data-v-0630f034>
+            Read case
+          </a></div></div> <div class="col" data-v-0630f034><div class="fields" data-v-0630f034><div class="field" data-v-0630f034><div class="label" data-v-0630f034>
+              Client
+            </div> <div class="value" data-v-0630f034>
+              TRST Architect
+            </div></div> <div class="field" data-v-0630f034><div class="label" data-v-0630f034>
+              Location
+            </div> <div class="value" data-v-0630f034>
+              Jakarta, Indonesia
+            </div></div> <div class="field" data-v-0630f034><div class="label" data-v-0630f034>
+              Year
+            </div> <div class="value" data-v-0630f034>
+              2020
+            </div></div> <div class="field" data-v-0630f034><div class="label" data-v-0630f034>
+              Services
+            </div> <div class="value" data-v-0630f034>
+              Web Development
+            </div></div></div></div></div></div></div></div> <div class="swiper-slide" data-v-e7e974a4><div class="portfolio-window text-left mt-4" data-v-0630f034 data-v-e7e974a4><div class="portfolio-window-bg" data-v-0630f034><img src="/_nuxt/img/trst-01.7924eb5.jpg" alt class="rellax" data-v-0630f034></div> <div class="hint" data-v-0630f034><div data-v-0630f034><h3 data-v-0630f034>TRST Architect</h3>
+      Hover to read
+    </div></div> <div class="portfolio-window-content" data-v-0630f034><div class="row" data-v-0630f034><div class="col" data-v-0630f034><h3 data-v-0630f034>TRST Architect</h3> <hr class="break mb-5" data-v-0630f034> <p class="text-justify mb-5" data-v-0630f034>
+          TRST Architect is a full-service architecture design studio located in Jakarta, Indonesia.
+          The studio’s work includes high-end residential and commercial projects.
+          In collaboration with DevFable, we created their company profille website,
+          which serves as home for their online presence, showcasing their past portfolios with
+          High Resolution medias, and also providing essential information with minimalist and modern design
+          theme, faithfully following their architecture design accent.
+        </p> <div data-v-0630f034><a href="https://trstarchitect.com" class="btn btn-theme btn-rounded" data-v-0630f034>
+            Visit Link
+          </a> <a href="https://trstarchitect.com" class="btn btn-theme btn-rounded ml-2" data-v-0630f034>
+            Read case
+          </a></div></div> <div class="col" data-v-0630f034><div class="fields" data-v-0630f034><div class="field" data-v-0630f034><div class="label" data-v-0630f034>
+              Client
+            </div> <div class="value" data-v-0630f034>
+              TRST Architect
+            </div></div> <div class="field" data-v-0630f034><div class="label" data-v-0630f034>
+              Location
+            </div> <div class="value" data-v-0630f034>
+              Jakarta, Indonesia
+            </div></div> <div class="field" data-v-0630f034><div class="label" data-v-0630f034>
+              Year
+            </div> <div class="value" data-v-0630f034>
+              2020
+            </div></div> <div class="field" data-v-0630f034><div class="label" data-v-0630f034>
+              Services
+            </div> <div class="value" data-v-0630f034>
+              Web Development
+            </div></div></div></div></div></div></div></div> <div class="swiper-slide" data-v-e7e974a4><div class="portfolio-window text-left mt-4" data-v-0630f034 data-v-e7e974a4><div class="portfolio-window-bg" data-v-0630f034><img src="/_nuxt/img/trst-01.7924eb5.jpg" alt class="rellax" data-v-0630f034></div> <div class="hint" data-v-0630f034><div data-v-0630f034><h3 data-v-0630f034>TRST Architect</h3>
+      Hover to read
+    </div></div> <div class="portfolio-window-content" data-v-0630f034><div class="row" data-v-0630f034><div class="col" data-v-0630f034><h3 data-v-0630f034>TRST Architect</h3> <hr class="break mb-5" data-v-0630f034> <p class="text-justify mb-5" data-v-0630f034>
+          TRST Architect is a full-service architecture design studio located in Jakarta, Indonesia.
+          The studio’s work includes high-end residential and commercial projects.
+          In collaboration with DevFable, we created their company profille website,
+          which serves as home for their online presence, showcasing their past portfolios with
+          High Resolution medias, and also providing essential information with minimalist and modern design
+          theme, faithfully following their architecture design accent.
+        </p> <div data-v-0630f034><a href="https://trstarchitect.com" class="btn btn-theme btn-rounded" data-v-0630f034>
+            Visit Link
+          </a> <a href="https://trstarchitect.com" class="btn btn-theme btn-rounded ml-2" data-v-0630f034>
+            Read case
+          </a></div></div> <div class="col" data-v-0630f034><div class="fields" data-v-0630f034><div class="field" data-v-0630f034><div class="label" data-v-0630f034>
+              Client
+            </div> <div class="value" data-v-0630f034>
+              TRST Architect
+            </div></div> <div class="field" data-v-0630f034><div class="label" data-v-0630f034>
+              Location
+            </div> <div class="value" data-v-0630f034>
+              Jakarta, Indonesia
+            </div></div> <div class="field" data-v-0630f034><div class="label" data-v-0630f034>
+              Year
+            </div> <div class="value" data-v-0630f034>
+              2020
+            </div></div> <div class="field" data-v-0630f034><div class="label" data-v-0630f034>
+              Services
+            </div> <div class="value" data-v-0630f034>
+              Web Development
+            </div></div></div></div></div></div></div></div></div></div></div></section> <section id="contact" class="section" data-v-e7e974a4><div class="view" data-v-e7e974a4><div data-aos="zoom-out" class="container" data-v-e7e974a4><h2 class="mb-4" data-v-e7e974a4>
+            Ready to Plan Your Next Project?
+          </h2> <div class="beftitle" style="margin-bottom:100px" data-v-e7e974a4>
+            The next step of a good idea is all about making that idea happens.
+          </div></div> <div data-aos="fade-up" class="container mb-5" data-v-e7e974a4><div data-v-e7e974a4>Contact us for quotes or consultation at:</div> <div class="_email" data-v-e7e974a4>
+            hi@devfable.com
+          </div></div> <div data-aos="fade-up" data-aos-delay="100" class="container" data-v-e7e974a4><div data-v-e7e974a4>Phone / Whatsapp</div> <div class="_whatsapp" data-v-e7e974a4><a href="whatsapp://send?text=Hi, I'm interested to develop a project with devfable&phone=+6281316076165&abid=+6281316076165" data-v-e7e974a4>
+              +62 813 1607 6165
+            </a></div></div></div></section> <footer class="footer" data-v-ecc61936 data-v-e7e974a4><div class="container" data-v-ecc61936><div class="row _top" data-v-ecc61936><div class="col-lg-3 mb-5 mb-lg-0 text-center text-lg-left" data-v-ecc61936><div class="_brand brand" data-v-ecc61936>DevFable</div> <p class="_brand-subtitle" data-v-ecc61936>Helping Your Development Story</p></div> <div class="col-lg-3 mb-5 mb-lg-0 text-center text-lg-left" data-v-ecc61936><h3 data-v-ecc61936>Contact</h3> <p data-v-ecc61936>
+          Email: hi@devfable.com
+          <br data-v-ecc61936>
+          Phone/WA: +62 813 1607 6165
+        </p></div> <div class="col-lg-3 mb-5 mb-lg-0 text-center text-lg-left" data-v-ecc61936><h3 data-v-ecc61936>Headquarter</h3> <address data-v-ecc61936>
+          Jl. Jembatan Dua
+          <br data-v-ecc61936>
+          RT. 021 / RW. 019
+          <br data-v-ecc61936>
+          Penjaringan, Jakarta Utara
+          <br data-v-ecc61936>
+          DKI Jakarta, 14450
+          <br data-v-ecc61936>
+          Indonesia
+        </address></div> <div class="col-lg-3 text-center text-lg-left" data-v-ecc61936><h3 data-v-ecc61936>Useful Links</h3> <ul class="nav flex-column" data-v-ecc61936><li class="nav-item" data-v-ecc61936><a href="/about" class="nav-link" data-v-ecc61936>About</a></li> <li class="nav-item" data-v-ecc61936><a href="/portfolio" class="nav-link" data-v-ecc61936>Portfolio</a></li> <li class="nav-item" data-v-ecc61936><a href="/contact" class="nav-link" data-v-ecc61936>Contact</a></li></ul></div></div> <div class="row _bottom" data-v-ecc61936><div class="col" data-v-ecc61936><div class="copyright text-center" data-v-ecc61936>
+          © 2020 DevFable Indonesia. All Rights Reserved
+        </div></div></div></div></footer></div></div></div></div></div><script>window.__NUXT__={staticAssetsBase:"/_nuxt/static/1597602407",layout:"default",error:null,serverRendered:!0,routePath:"/",config:{}}</script><script src="/_nuxt/runtime.b91c889.js" defer></script><script src="/_nuxt/pages/index.a06c748.js" defer></script><script src="/_nuxt/node_modules/commons.6db1fc5.js" defer></script><script src="/_nuxt/app.d231f10.js" defer></script>
+  </body>
+</html>
